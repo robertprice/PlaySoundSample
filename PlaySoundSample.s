@@ -98,7 +98,8 @@ OldVector:
 ;---------------------------------------------------------------
 
 		SECTION soundsample,DATA_C
-sample:
-		INCBIN	"ThisIsTheWay.raw"	; exported as RAW 8bit signed PCM
+
 emptysample:
 		dc.w	0					; an empty single word sample.
+sample:
+		INCBIN	"ThisIsTheWay.raw"	; exported as RAW 8bit signed PCM
